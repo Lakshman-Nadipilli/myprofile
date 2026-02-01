@@ -6,6 +6,7 @@ function App() {
   return (
     <Router basename="/myprofile">
       <Routes>
+        {/* neww route for skills */}
         <Route path="/" element={<Landing />} />
       </Routes>
     </Router>
