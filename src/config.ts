@@ -192,20 +192,17 @@ export const projects = {
         {
             title: "Financial Reporting & Transaction Services",
             description: "Scalable backend services and RESTful APIs for financial reporting and transaction workflows on AWS ECS. Serverless components with AWS Lambda, S3 integration, RBAC, and GitHub Actions CI/CD.",
-            tech: ["Java", "Spring Boot", "AWS ECS", "Lambda", "S3", "REST APIs", "CI/CD"],
-            github: "#"
+            tech: ["Java", "Spring Boot", "AWS ECS", "Lambda", "S3", "REST APIs", "CI/CD"]
         },
         {
             title: "Bullhorn ATS Core Modules",
             description: "Core modules of enterprise ATS with resume parsing, OAuth 2.0, and React.js dashboards. Jenkins CI/CD and SQL/async optimizations for recruiter productivity.",
-            tech: ["Java", "Spring Boot", "React.js", "OAuth 2.0", "Jenkins", "REST APIs"],
-            github: "#"
+            tech: ["Java", "Spring Boot", "React.js", "OAuth 2.0", "Jenkins", "REST APIs"]
         },
         {
             title: "Ajio E-Commerce Platform",
             description: "E-commerce backend with product/cart/orders, Razorpay & Stripe, AWS SES. Python ML recommendation microservice, React Charts analytics, Docker on AWS EC2.",
-            tech: ["Java", "Spring Boot", "React", "MySQL", "Python", "AWS SES", "Docker"],
-            github: "#"
+            tech: ["Java", "Spring Boot", "React", "MySQL", "Python", "AWS SES", "Docker"]
         }
     ]
 };
@@ -214,25 +211,21 @@ export const achievements = {
     competitions: [
         {
             title: "YOLO-based Object Detection for Self-Driving Cars",
-            subtitle: "Journal of Advanced Research in Automotive Tech (2021)",
-            link: "#"
+            subtitle: "Journal of Advanced Research in Automotive Tech (2021)"
         }
     ],
     certifications: [
         {
             title: "Java Full Stack",
-            subtitle: "StackRoute",
-            link: "#"
+            subtitle: "StackRoute"
         },
         {
             title: "Machine Learning",
-            subtitle: "Internshala",
-            link: "#"
+            subtitle: "Internshala"
         },
         {
             title: "Foundations of AI",
-            subtitle: "SkillUp India",
-            link: "#"
+            subtitle: "SkillUp India"
         }
     ],
     philanthropy: []

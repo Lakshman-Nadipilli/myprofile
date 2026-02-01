@@ -51,6 +51,9 @@ const Landing_section: React.FC = () => {
                 <h1 className="font-calibre font-semibold text-[40px] md:text-7xl text-slate-300">
                     {greeting.name}
                 </h1>
+                <p className="font-calibre font-medium text-[22px] md:text-3xl text-slate-400 -mt-1">
+                    {greeting.fullname}
+                </p>
 
                 <h2 className="flex items-center font-calibre font-bold text-[40px] md:text-6xl text-site-orange">
                     {greeting.title}

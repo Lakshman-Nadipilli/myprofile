@@ -1,9 +1,9 @@
-const AchievementCard = ({ title, subtitle,link="" }) => (
-  <div className="group cursor-pointer mb-6" onClick={()=>link && window.open(link, '_blank').focus()} >
+const AchievementCard = ({ title, subtitle }) => (
+  <div className="group mb-6">
     <div className="flex items-start gap-2 transform transition-transform duration-300 group-hover:translate-x-2">
       <span className="text-gray-400 group-hover:text-site-accent">▹</span>
       <div>
-        <h3 className="text-gray-200 font-medium group-hover:text-site-accent">{title} {link ? "🔗":""}</h3>
+        <h3 className="text-gray-200 font-medium group-hover:text-site-accent">{title}</h3>
         <p className="text-gray-400 text-sm mt-1">{subtitle}</p>
       </div>
     </div>

@@ -1,11 +1,9 @@
-import { Github, ExternalLink, Folder } from 'lucide-react';
+import { Folder } from 'lucide-react';
 
 interface ProjectCardProps {
   title: string;
   description: string;
   tech: string[];
-  github?: string;
-  external?: string;
   isOpenSource?: boolean;
 }
 
@@ -13,8 +11,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   title, 
   description, 
   tech, 
-  github, 
-  external, 
   isOpenSource 
 }) => {
   return (
@@ -26,20 +22,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             <span className="text-xs font-mono px-2 py-1 rounded-full bg-site-accent bg-opacity-10 text-site-accent">
               Open Source
             </span>
-          )}
-        </div>
-        <div className="flex gap-4">
-          {github && (
-            <a  target="_blank" 
-            rel="noopener noreferrer"  href={github} className="text-gray-300 hover:text-site-accent">
-              <Github className="w-6 h-6" />
-            </a>
-          )}
-          {external && (
-            <a  target="_blank" 
-            rel="noopener noreferrer"  href={external} className="text-gray-300 hover:text-site-accent">
-              <ExternalLink className="w-6 h-6" />
-            </a>
           )}
         </div>
       </div>
